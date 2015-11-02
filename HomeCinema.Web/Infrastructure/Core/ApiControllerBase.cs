@@ -15,16 +15,16 @@ namespace HomeCinema.Web.Infrastructure.Core
 {
     public class ApiControllerBase : ApiController
     {
-        protected readonly IEntityBaseRepository<Error> _errorsRepository;
+        protected readonly IEntityBaseRepository<ErrorLog> _errorsRepository;
         protected readonly IUnitOfWork _unitOfWork;
 
-        public ApiControllerBase(IEntityBaseRepository<Error> errorsRepository, IUnitOfWork unitOfWork)
+        public ApiControllerBase(IEntityBaseRepository<ErrorLog> errorsRepository, IUnitOfWork unitOfWork)
         {
             _errorsRepository = errorsRepository;
             _unitOfWork = unitOfWork;
         }
 
-        public ApiControllerBase(IDataRepositoryFactory dataRepositoryFactory, IEntityBaseRepository<Error> errorsRepository, IUnitOfWork unitOfWork)
+        public ApiControllerBase(IDataRepositoryFactory dataRepositoryFactory, IEntityBaseRepository<ErrorLog> errorsRepository, IUnitOfWork unitOfWork)
         {
             _errorsRepository = errorsRepository;
             _unitOfWork = unitOfWork;
@@ -55,7 +55,7 @@ namespace HomeCinema.Web.Infrastructure.Core
         {
             try
             {
-                Error _error = new Error()
+                var _error = new ErrorLog()
                 {
                     Message = ex.Message,
                     StackTrace = ex.StackTrace,

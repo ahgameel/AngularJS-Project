@@ -168,6 +168,7 @@
     <Content Include="Scripts\spa\layout\sideBar.html" />
     <Content Include="Scripts\spa\layout\topBar.directive.js" />
     <Content Include="Scripts\spa\layout\topBar.html" />
+    <Content Include="Scripts\spa\services\apiService.js" />
     <Content Include="Scripts\spa\services\notificationService.js" />
     <Content Include="Scripts\vendors\angucomplete-alt.min.js" />
     <Content Include="Scripts\vendors\angular-base64.js" />
@@ -219,6 +220,8 @@
     <Compile Include="Infrastructure\Validators\CustomerViewModelValidator.cs" />
     <Compile Include="Infrastructure\Validators\MovieViewModelValidator.cs" />
     <Compile Include="Infrastructure\Validators\StockViewModelValidator.cs" />
+    <Compile Include="Models\GenreViewModel.cs" />
+    <Compile Include="Models\MovieViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -256,7 +259,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

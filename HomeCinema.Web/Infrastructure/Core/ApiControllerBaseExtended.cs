@@ -18,7 +18,7 @@ namespace HomeCinema.Web.Infrastructure.Core
         protected List<Type> _requiredRepositories;
 
         protected readonly IDataRepositoryFactory _dataRepositoryFactory;
-        protected IEntityBaseRepository<Error> _errorsRepository;
+        protected IEntityBaseRepository<ErrorLog> _errorsRepository;
         protected IEntityBaseRepository<Movie> _moviesRepository;
         protected IEntityBaseRepository<Rental> _rentalsRepository;
         protected IEntityBaseRepository<Stock> _stocksRepository;
@@ -59,7 +59,7 @@ namespace HomeCinema.Web.Infrastructure.Core
         
         private void InitRepositories(List<Type> entities)
         {
-            _errorsRepository = _dataRepositoryFactory.GetDataRepository<Error>(RequestMessage);
+            _errorsRepository = _dataRepositoryFactory.GetDataRepository<ErrorLog>(RequestMessage);
 
             if (entities.Any(e => e.FullName == typeof(Movie).FullName))
             {
@@ -91,7 +91,7 @@ namespace HomeCinema.Web.Infrastructure.Core
         {
             try
             {
-                Error _error = new Error()
+                var _error = new ErrorLog()
                 {
                     Message = ex.Message,
                     StackTrace = ex.StackTrace,
