@@ -1,0 +1,9 @@
+D:\Courses\Building Single Page Applications using Web API and angularJS (Free e-book)\HomeCinema\HomeCinema.Entities\bin\Debug\HomeCinema.Entities.dll.config
+D:\Courses\Building Single Page Applications using Web API and angularJS (Free e-book)\HomeCinema\HomeCinema.Entities\bin\Debug\HomeCinema.Entities.dll
+D:\Courses\Building Single Page Applications using Web API and angularJS (Free e-book)\HomeCinema\HomeCinema.Entities\bin\Debug\HomeCinema.Entities.pdb
+D:\Courses\Building Single Page Applications using Web API and angularJS (Free e-book)\HomeCinema\HomeCinema.Entities\bin\Debug\EntityFramework.dll
+D:\Courses\Building Single Page Applications using Web API and angularJS (Free e-book)\HomeCinema\HomeCinema.Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\Courses\Building Single Page Applications using Web API and angularJS (Free e-book)\HomeCinema\HomeCinema.Entities\bin\Debug\EntityFramework.xml
+D:\Courses\Building Single Page Applications using Web API and angularJS (Free e-book)\HomeCinema\HomeCinema.Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\Courses\Building Single Page Applications using Web API and angularJS (Free e-book)\HomeCinema\HomeCinema.Entities\obj\Debug\HomeCinema.Entities.dll
+D:\Courses\Building Single Page Applications using Web API and angularJS (Free e-book)\HomeCinema\HomeCinema.Entities\obj\Debug\HomeCinema.Entities.pdb
